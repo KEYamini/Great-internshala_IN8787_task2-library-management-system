@@ -1,0 +1,111 @@
+  LIBRARY MANAGEMENT SYSTEM
+1.TO ADD THE BOOK
+2.TO ISSUE A BOOK
+3.TO RETURN A BOOK
+4.TO PRINT COMPLETE ISSUE DETAILS
+6.TO EXIT
+1
+Enter book name:
+wings on fire
+Enter price of the book:
+80
+Enter book number:
+47
+NAME OF THE BOOK YOU WANTED: wings on fire
+COST OF THE BOOK YOU WANTED: 80.0
+SERIAL NUMBER OF THE BOOK YOU WANTED: 47
+PS C:\Users\YAMINI PRASANNA>  & 'C:\Program Files\Java\jdk-19\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\YAMINI PRASANNA\AppData\Local\Temp\vscodesws_7744d\jdt_ws\jdt.ls-java-project\bin' 'Library' 
+            LIBRARY MANAGEMENT SYSTEM
+1.TO ADD THE BOOK
+2.TO ISSUE A BOOK
+3.TO RETURN A BOOK
+4.TO PRINT COMPLETE ISSUE DETAILS
+6.TO EXIT
+2
+Enter book name:
+wings on fire
+Enter book ID:
+476
+Enter issue date:
+12-02-23
+Enter total number of books issued:
+3
+Return book date:
+1-03-23 
+NAME OF THE BOOK THAT YOU HAVE ISSUED: wings on fire
+SERIAL NUMBER OF THE BOOK YOU HAVE ISSUED: 476
+DATE OF THE BOOK YOU HAVE ISSUED: 12-02-23
+TOTAL NUMBER OF THE BOOK YOU HAVE ISSUED: 3
+DATE OF THE BOOK RETURNED WHICH IS ISSUED BY YOU: 1-03-23
+PS C:\Users\YAMINI PRASANNA>  & 'C:\Program Files\Java\jdk-19\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\YAMINI PRASANNA\AppData\Local\Temp\vscodesws_7744d\jdt_ws\jdt.ls-java-project\bin' 'Library' 
+            LIBRARY MANAGEMENT SYSTEM
+1.TO ADD THE BOOK
+2.TO ISSUE A BOOK
+3.TO RETURN A BOOK
+4.TO PRINT COMPLETE ISSUE DETAILS
+6.TO EXIT
+3
+Enter student name:
+sai
+Enter book name:
+wings on fire
+Enter book ID:
+47
+** WRONG ID **
+PLEASE ENTER THE VALID DETAILS
+PS C:\Users\YAMINI PRASANNA>  & 'C:\Program Files\Java\jdk-19\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\YAMINI PRASANNA\AppData\Local\Temp\vscodesws_7744d\jdt_ws\jdt.ls-java-project\bin' 'Library' 
+            LIBRARY MANAGEMENT SYSTEM
+1.TO ADD THE BOOK
+2.TO ISSUE A BOOK
+3.TO RETURN A BOOK
+4.TO PRINT COMPLETE ISSUE DETAILS
+6.TO EXIT
+4
+ DETAILS
+NAME OF THE BOOK THAT YOU HAVE ISSUED: null
+SERIAL NUMBER OF THE BOOK YOU HAVE ISSUED: 0
+DATE OF THE BOOK YOU HAVE ISSUED: null
+TOTAL NUMBER OF THE BOOK YOU HAVE ISSUED: 0
+DATE OF THE BOOK RETURNED WHICH IS ISSUED BY YOU: null
+PS C:\Users\YAMINI PRASANNA>  & 'C:\Program Files\Java\jdk-19\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\YAMINI PRASANNA\AppData\Local\Temp\vscodesws_7744d\jdt_ws\jdt.ls-java-project\bin' 'Library'
+            LIBRARY MANAGEMENT SYSTEM
+1.TO ADD THE BOOK
+2.TO ISSUE A BOOK
+3.TO RETURN A BOOK
+4.TO PRINT COMPLETE ISSUE DETAILS
+5.TO EXIT
+5
+PS C:\Users\YAMINI PRASANNA>  & 'C:\Program Files\Java\jdk-19\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\YAMINI PRASANNA\AppData\Local\Temp\vscodesws_7744d\jdt_ws\jdt.ls-java-project\bin' 'Library' 
+            LIBRARY MANAGEMENT SYSTEM
+1.TO ADD THE BOOK
+2.TO ISSUE A BOOK
+3.TO RETURN A BOOK
+4.TO PRINT COMPLETE ISSUE DETAILS
+5.TO EXIT
+1
+Enter book name:
+wings on fire
+Enter price of the book:
+147
+Enter book number:
+1234
+NAME OF THE BOOK YOU WANTED: wings on fire
+COST OF THE BOOK YOU WANTED: 147.0
+SERIAL NUMBER OF THE BOOK YOU WANTED: 1234
+PS C:\Users\YAMINI PRASANNA>  & 'C:\Program Files\Java\jdk-19\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\YAMINI PRASANNA\AppData\Local\Temp\vscodesws_7744d\jdt_ws\jdt.ls-java-project\bin' 'Library'
+            LIBRARY MANAGEMENT SYSTEM
+1.TO ADD THE BOOK
+2.TO ISSUE A BOOK
+3.TO RETURN A BOOK
+4.TO PRINT COMPLETE ISSUE DETAILS
+5.TO EXIT
+1
+Enter book name:
+wings of fire
+Enter price of the book:
+147
+Enter book number:
+209
+NAME OF THE BOOK YOU WANTED: wings of fire
+COST OF THE BOOK YOU WANTED: 147.0
+SERIAL NUMBER OF THE BOOK YOU WANTED: 209
