@@ -1,0 +1,107 @@
+import java.util.Scanner;
+
+public class Library {
+    static int a = 0; 
+    String book, date, d; 
+    int bookno, i;
+
+    public static void main(String[] args) {
+        System.out.println("            LIBRARY MANAGEMENT SYSTEM              ");
+        System.out.println("1.TO ADD THE BOOK");
+
+        System.out.println("2.TO ISSUE A BOOK");
+        System.out.println("3.TO RETURN A BOOK");
+        System.out.println("4.TO PRINT COMPLETE ISSUE DETAILS");
+        System.out.println("5.TO EXIT");
+
+        Scanner input = new Scanner(System.in);
+        int choice = input.nextInt();
+        Library l1 = new Library(); 
+
+        switch (choice) {
+            case 1:
+                l1.add();
+                break;
+            case 2:
+                l1.issue();
+                break;
+            case 3:
+                l1.returnBook();
+                break;
+            case 4:
+                l1.details();
+                break;
+            case 5:
+                System.exit(0);
+                break;
+            default:
+                System.out.println("Invalid choice!");
+        }
+
+        input.close(); 
+    }
+
+    void add() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter book name: ");
+        book = sc.nextLine();
+        System.out.println("Enter price of the book: ");
+        float price = sc.nextFloat();
+        System.out.println("Enter book number: ");
+        bookno = sc.nextInt();
+        System.out.println("NAME OF THE BOOK YOU WANTED: " + book);
+        System.out.println("COST OF THE BOOK YOU WANTED: " + price);
+        System.out.println("SERIAL NUMBER OF THE BOOK YOU WANTED: " + bookno);
+        sc.close(); 
+    }
+
+    void issue() {
+        Scanner sc1 = new Scanner(System.in);
+        System.out.println("Enter book name: ");
+        book = sc1.nextLine();
+        System.out.println("Enter book ID: ");
+        bookno = sc1.nextInt();
+        sc1.nextLine(); 
+        System.out.println("Enter issue date:");
+        date = sc1.nextLine();
+        System.out.println("Enter total number of books issued: ");
+        i = sc1.nextInt();
+        sc1.nextLine(); 
+        System.out.println("Return book date:");
+        d = sc1.nextLine();
+        System.out.println("NAME OF THE BOOK THAT YOU HAVE ISSUED: " + book);
+        System.out.println("SERIAL NUMBER OF THE BOOK YOU HAVE ISSUED: " + bookno);
+        System.out.println("DATE OF THE BOOK YOU HAVE ISSUED: " + date);
+        System.out.println("TOTAL NUMBER OF THE BOOK YOU HAVE ISSUED: " + i);
+        System.out.println("DATE OF THE BOOK RETURNED WHICH IS ISSUED BY YOU: " + d);
+        sc1.close(); 
+    }
+
+    void returnBook() {
+        Scanner sc1 = new Scanner(System.in);
+        System.out.println("Enter student name: ");
+        String stu = sc1.nextLine();
+        System.out.println("Enter book name: ");
+        book = sc1.nextLine();
+        System.out.println("Enter book ID: ");
+        int bookid = sc1.nextInt();
+        if (a == bookid) {
+            System.out.println("TOTAL DETAILS ");
+            System.out.println("BOOK NAME: " + book);
+            System.out.println("BOOK ID: " + bookid);
+        } else {
+            System.out.println("** WRONG ID **");
+            System.out.println("PLEASE ENTER THE VALID DETAILS ");
+        }
+        sc1.close(); 
+    }
+
+    void details() {
+        System.out.println(" DETAILS ");
+        System.out.println("NAME OF THE BOOK THAT YOU HAVE ISSUED: " + book);
+        System.out.println("SERIAL NUMBER OF THE BOOK YOU HAVE ISSUED: " + bookno);
+        System.out.println("DATE OF THE BOOK YOU HAVE ISSUED: " + date);
+        System.out.println("TOTAL NUMBER OF THE BOOK YOU HAVE ISSUED: " + i);
+        System.out.println("DATE OF THE BOOK RETURNED WHICH IS ISSUED BY YOU: " + d);
+    }
+}
